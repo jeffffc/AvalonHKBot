@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonHKBot", "Avalon\AvalonHKBot\AvalonHKBot.csproj", "{6E9A4784-2922-40F6-8DF4-9E51845B7EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Avalon\Database\Database.csproj", "{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avalon", "Avalon", "{5A227FFD-B302-4640-8528-EA2156C0891B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9A4784-2922-40F6-8DF4-9E51845B7EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9A4784-2922-40F6-8DF4-9E51845B7EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9A4784-2922-40F6-8DF4-9E51845B7EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9A4784-2922-40F6-8DF4-9E51845B7EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E9A4784-2922-40F6-8DF4-9E51845B7EBC} = {5A227FFD-B302-4640-8528-EA2156C0891B}
+		{573C0D0D-C22B-49C5-AEAE-E4E30FF82A0A} = {5A227FFD-B302-4640-8528-EA2156C0891B}
+	EndGlobalSection
+EndGlobal
